@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <include file="/screens.xml"/>
+    <screen id="workshop$SparePart.browse"
+            template="com/company/workshop/web/sparepart/spare-part-browse.xml"/>
+    <screen id="workshop$SparePart.edit"
+            template="com/company/workshop/web/sparepart/spare-part-edit.xml"/>
+    <screen id="workshop$Client.browse"
+            template="com/company/workshop/web/client/client-browse.xml"/>
+    <screen id="workshop$Client.edit"
+            template="com/company/workshop/web/client/client-edit.xml"/>
+    <screen id="workshop$Mechanic.browse"
+            template="com/company/workshop/web/mechanic/mechanic-browse.xml"/>
+    <screen id="workshop$Mechanic.edit"
+            template="com/company/workshop/web/mechanic/mechanic-edit.xml"/>
+    <screen id="workshop$Order.browse"
+            template="com/company/workshop/web/order/order-browse.xml"/>
+    <screen id="workshop$Order.edit"
+            template="com/company/workshop/web/order/order-edit.xml"/>
+</screen-config>

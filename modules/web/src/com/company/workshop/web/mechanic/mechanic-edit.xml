@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.company.workshop.web.mechanic.MechanicEdit"
+        datasource="mechanicDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.company.workshop.web.mechanic">
+    <dsContext>
+        <datasource id="mechanicDs"
+                    class="com.company.workshop.entity.Mechanic"
+                    view="mechanic-view"/>
+    </dsContext>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="mechanicDs">
+            <column width="250px">
+                <field id="user"/>
+                <field id="hourlyRate"/>
+            </column>
+        </fieldGroup>
+        <frame id="windowActions"
+               screen="editWindowActions"/>
+    </layout>
+</window>

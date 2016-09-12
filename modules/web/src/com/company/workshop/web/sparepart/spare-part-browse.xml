@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.workshop.web.sparepart.SparePartBrowse"
+        focusComponent="sparePartsTable"
+        lookupComponent="sparePartsTable"
+        messagesPack="com.company.workshop.web.sparepart">
+    <dsContext>
+        <collectionDatasource id="sparePartsDs"
+                              class="com.company.workshop.entity.SparePart"
+                              view="_local">
+            <query>
+                <![CDATA[select e from workshop$SparePart e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="sparePartsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="sparePartsTable"
+                datasource="sparePartsDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="sparePartsTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="title"/>
+                <column id="description"/>
+                <column id="price"/>
+            </columns>
+            <rows datasource="sparePartsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="sparePartsTable.create"/>
+                <button id="editBtn"
+                        action="sparePartsTable.edit"/>
+                <button id="removeBtn"
+                        action="sparePartsTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

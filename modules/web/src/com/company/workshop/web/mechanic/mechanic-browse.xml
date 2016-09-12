@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.workshop.web.mechanic.MechanicBrowse"
+        focusComponent="mechanicsTable"
+        lookupComponent="mechanicsTable"
+        messagesPack="com.company.workshop.web.mechanic">
+    <dsContext>
+        <collectionDatasource id="mechanicsDs"
+                              class="com.company.workshop.entity.Mechanic"
+                              view="mechanic-view">
+            <query>
+                <![CDATA[select e from workshop$Mechanic e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="mechanicsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="mechanicsTable"
+                datasource="mechanicsDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="mechanicsTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="user"/>
+                <column id="hourlyRate"/>
+            </columns>
+            <rows datasource="mechanicsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="mechanicsTable.create"/>
+                <button id="editBtn"
+                        action="mechanicsTable.edit"/>
+                <button id="removeBtn"
+                        action="mechanicsTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>
