@@ -4,6 +4,7 @@
 *.iml
 *.iws
 build/tomcat
+.DS_Store
 modules/*/build/*
 out
 test-run
