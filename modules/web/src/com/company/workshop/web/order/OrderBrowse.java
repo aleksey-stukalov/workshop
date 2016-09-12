@@ -21,4 +21,20 @@ public class OrderBrowse extends AbstractLookup {
             ordersDs.commit();
         }
     }
+
+    public void onBtnSetReadyStatusClick(Component source) {
+        Order o = ordersDs.getItem();
+        if (o != null) {
+            o.setStatus(OrderStatus.READY);
+            ordersDs.commit();
+        }
+    }
+
+    public void onBtnSetInProgressStatusClick(Component source) {
+        Order o = ordersDs.getItem();
+        if (o != null) {
+            o.setStatus(OrderStatus.IN_PROGRESS);
+            ordersDs.commit();
+        }
+    }
 }

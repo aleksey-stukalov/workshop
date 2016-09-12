@@ -51,6 +51,12 @@
                 <button id="btnSetNewStatus"
                         caption="Set as New"
                         invoke="onBtnSetNewStatusClick"/>
+                <button id="btnSetInProgressStatus"
+                        caption="Set as In Progress"
+                        invoke="onBtnSetInProgressStatusClick"/>
+                <button id="btnSetReadyStatus"
+                        caption="Set as Ready"
+                        invoke="onBtnSetReadyStatusClick"/>
             </buttonsPanel>
         </table>
     </layout>
