@@ -3,7 +3,7 @@
 *.ipr
 *.iml
 *.iws
-build/*
+build/tomcat
 modules/*/build/*
 out
 test-run
