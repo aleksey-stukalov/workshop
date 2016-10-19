@@ -16,3 +16,7 @@ This Hands-on-Lab covers basic and most used features of the CUBA Platform, incl
   * UI development
   * Business logic development
   * REST API
+
+## Environment Required
+* [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) with [CUBA plugin](https://plugins.jetbrains.com/plugin/7249?pr=) installed
+* [CUBA Studio](https://www.cuba-platform.com/download) version 2.3+
