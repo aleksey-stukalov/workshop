@@ -22,3 +22,5 @@ This Hands-on-Lab covers basic and most used features of the CUBA Platform, incl
 * [CUBA Studio](https://www.cuba-platform.com/download) version 2.3+
 
 ## Step by Step Guide
+Step by Step guide is available in pdf format [here](https://github.com/aleksey-stukalov/workshop/blob/master/J1HOL2016-workshop.pdf). 
+Code snippets can be found in the [wiki page](https://github.com/aleksey-stukalov/workshop/wiki).
