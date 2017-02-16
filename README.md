@@ -8,6 +8,9 @@ This Hands-on-Lab covers basic and most used features of the CUBA Platform, incl
 
 ## Time
  Estimated time to complete this lab is 3 hours.
+ The estimation is given for developers,
+who have general (basic) knowledge
+of Java SE.
 
 ## You will learn how to
  * Create a project on the CUBA Platform
