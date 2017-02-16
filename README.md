@@ -2,6 +2,13 @@
 
 This Hands-on-Lab covers basic and most used features of the CUBA Platform, including development approach and runtime features of the platform. It will learn you how to accelerate development of enterprise applications, taking bicycle workshop system as an example. 
 
+## Environment Required
+* [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) with [CUBA plugin](https://plugins.jetbrains.com/plugin/7249?pr=) installed
+* [CUBA Studio](https://www.cuba-platform.com/download) version 2.3+
+
+## Step by Step Guide
+The complete guide and the code snippets you can find on the [wiki pages](https://github.com/aleksey-stukalov/workshop/wiki). 
+
 ## Content
 1. [FUNCTIONAL SPECIFICATION](Functional-specification)
 1. [CREATING A NEW PROJECT](Creating-a-new-project)
@@ -50,11 +57,3 @@ This Hands-on-Lab covers basic and most used features of the CUBA Platform, incl
     6.4 [REST API](Development-beyond-CRUD#64-rest-api)
 
 1. [Conclusion](Conclusion)
-
-
-## Environment Required
-* [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) with [CUBA plugin](https://plugins.jetbrains.com/plugin/7249?pr=) installed
-* [CUBA Studio](https://www.cuba-platform.com/download) version 2.3+
-
-## Step by Step Guide
-The complete guide and the code snippets you can find on the [wiki pages](https://github.com/aleksey-stukalov/workshop/wiki). 
