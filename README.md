@@ -6,8 +6,7 @@ This Hands-on-Lab covers basic and most used features of the CUBA Platform, incl
 * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) with [CUBA plugin](https://plugins.jetbrains.com/plugin/7249?pr=) installed
 * [CUBA Studio](https://www.cuba-platform.com/download) version 2.3+
 
-## Step by Step Guide
-The complete guide and the code snippets you can find on the [wiki pages](https://github.com/aleksey-stukalov/workshop/wiki). 
+## Estimated time to complete this lab is 3 hours.
 
 ## You will learn how to
  * Create a project on the CUBA Platform
@@ -19,3 +18,6 @@ The complete guide and the code snippets you can find on the [wiki pages](https:
  * Integrate CUBA Studio with Java IDE
  * Implement business logic
  * Use CUBA REST API
+
+## Step by Step Guide
+The complete guide and the code snippets you can find on the [wiki pages](https://github.com/aleksey-stukalov/workshop/wiki). 
