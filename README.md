@@ -6,7 +6,8 @@ This Hands-on-Lab covers basic and most used features of the CUBA Platform, incl
 * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) with [CUBA plugin](https://plugins.jetbrains.com/plugin/7249?pr=) installed
 * [CUBA Studio](https://www.cuba-platform.com/download) version 2.3+
 
-## Estimated time to complete this lab is 3 hours.
+## Time
+ Estimated time to complete this lab is 3 hours.
 
 ## You will learn how to
  * Create a project on the CUBA Platform
