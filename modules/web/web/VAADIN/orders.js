@@ -3,7 +3,6 @@ var oauthToken = null;
 function login() {
     var userLogin = $('#loginField').val();
     var userPassword = $('#passwordField').val();
-    console.log ( '#someButton was clicked' );
     $.post({
         url: 'http://localhost:8080/app/rest/v2/oauth/token',
         headers: {
