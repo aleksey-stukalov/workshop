@@ -8,3 +8,4 @@ build/tomcat
 modules/*/build/*
 out
 test-run
+deploy/*
